@@ -419,7 +419,7 @@ Related Information:
 ### Problem Description: HL Explorer fails to start
 
 #### Background Information:
-    **logs/console/console.log output**
+    logs/console/console.log output:
     
     postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
     (node:28473) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
@@ -437,7 +437,7 @@ Related Information:
     <<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
     
     
-    **logs/app/app.log output**
+    logs/app/app.log output:
     
     [2018-10-26 10:20:35.233] [DEBUG] FabricClient - Channel genesis hash for channel [mychannel] >> ac4b7048da8b35c7b740babcb4dd8f911c94a15e45f442d5f6291a66f9b5ec5d
     [2018-10-26 10:20:35.233] [DEBUG] FabricClient - Initialized channel >> mychannel
